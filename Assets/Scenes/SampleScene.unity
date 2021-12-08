@@ -376,9 +376,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c187fc5e93e6346a9aeb86bb00b52884, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  komatta: {fileID: 21300000, guid: c60109f5e218147b9970207c7bdab44f, type: 3}
-  normal: {fileID: 21300000, guid: 8ad1d388ff59f42c7b6aba8e073a7e10, type: 3}
-  egao: {fileID: 21300000, guid: c60109f5e218147b9970207c7bdab44f, type: 3}
+  komatta: {fileID: 21300000, guid: 8ad1d388ff59f42c7b6aba8e073a7e10, type: 3}
+  normal: {fileID: 21300000, guid: c60109f5e218147b9970207c7bdab44f, type: 3}
+  egao: {fileID: 21300000, guid: 8ad1d388ff59f42c7b6aba8e073a7e10, type: 3}
   man: {fileID: 1732815018}
 --- !u!4 &769556172
 Transform:
@@ -484,6 +484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+  Rect: {fileID: 1136231567}
 --- !u!1 &1385879440
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,9 +803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ae58608dfbc4465a236b4b32088cfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  komatta: {fileID: 21300000, guid: ca23f2c87460e44139c3f2c655c7b1f6, type: 3}
-  normal: {fileID: 21300000, guid: 9e87f13db29784984937fc1f7c30437d, type: 3}
-  egao: {fileID: 21300000, guid: ca23f2c87460e44139c3f2c655c7b1f6, type: 3}
+  komatta: {fileID: 21300000, guid: 9e87f13db29784984937fc1f7c30437d, type: 3}
+  normal: {fileID: 21300000, guid: ca23f2c87460e44139c3f2c655c7b1f6, type: 3}
+  egao: {fileID: 21300000, guid: 9e87f13db29784984937fc1f7c30437d, type: 3}
   man: {fileID: 1948796434}
 --- !u!114 &1948796434
 MonoBehaviour:

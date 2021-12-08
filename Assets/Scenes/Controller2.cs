@@ -24,10 +24,10 @@ RectTransform rect;
         vy = 0;
  */
         // 横移動
-        if (Input.GetKey(KeyCode.LeftArrow)) {
+        if (Input.GetKey(KeyCode.D)) {
  rect.localPosition += new Vector3(10, 0, 0);
             //vx = -speed;
-        } else if (Input.GetKey(KeyCode.RightArrow)) {
+        } else if (Input.GetKey(KeyCode.A)) {
  rect.localPosition -= new Vector3(10, 0, 0);
             //vx = speed;
         }
