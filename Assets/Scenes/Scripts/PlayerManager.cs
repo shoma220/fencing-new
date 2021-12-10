@@ -19,8 +19,8 @@ public class PlayerManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.RightArrow)) {
  		Player.transform.position += new Vector3(1, 0);
-		if(Player.transform.position.x >= 7.0f){
-			Player.transform.position=new Vector3(7,0);
+		if(Player.transform.position.x >= 5.0f){
+			Player.transform.position=new Vector3(5,0);
 		}
         }
         if (Input.GetKeyDown(KeyCode.Space)) {

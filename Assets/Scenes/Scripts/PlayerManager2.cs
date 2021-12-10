@@ -1,3 +1,5 @@
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,8 +18,8 @@ public class PlayerManager2 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A)) {
  		Player.transform.position -= new Vector3(1, 0);
-		if(Player.transform.position.x <= -7.0f){
-			Player.transform.position=new Vector3(-7,0);
+		if(Player.transform.position.x <= -5.0f){
+			Player.transform.position=new Vector3(-5,0);
 		}
         }
         if (Input.GetKeyDown(KeyCode.D)) {
